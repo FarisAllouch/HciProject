@@ -1,0 +1,48 @@
+
+
+.Profile {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Profile .pfp {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.Profile .username {
+    color: white;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 0;
+    width: 165px
+
+}
+
+.Profile .info {
+    color: white;
+    font-size: 14px;
+    margin-top: -3px;
+}
+
+.Profile .choices {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: min(15%, 100px);
+    gap: 30px;
+
+}
+
+.Profile .choices .choice {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    color: white; 
+    cursor: pointer;
+}
